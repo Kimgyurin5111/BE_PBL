@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: PBL
+
+server:
+  port: 8080
+
+logging:
+  level:
+    net.likelion: DEBUG
