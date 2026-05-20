@@ -112,7 +112,7 @@ public class Main {
 
     private static void searchMember(Scanner scanner, MemberService service) {
         String name = readString(scanner, "\n🔍 검색할 이름: ");
-        Role member = service.searchByName(name);
+        Role member = service.findByName(name);
 
         if (member == null) {
             System.out.println("❌ 해당 이름의 멤버를 찾을 수 없습니다.\n");
